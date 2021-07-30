@@ -1,0 +1,9 @@
+CC= g++
+CFLAGS= -g -std=c++11
+LIBS= -lz -lncurses -lpthread
+
+netpong: netpong.cpp
+	$(CC) $(CFLAGS) -o $@ $^ $(LIBS)
+
+clean:
+	rm -f netpong
