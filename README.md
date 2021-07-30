@@ -1,6 +1,4 @@
-CSE 30264 Programming Assignment 4 README
-Author(s): Gerry Fernandez, Harrison Snow
-NetID(s): gfernan2, hsnow
+Author(s): gfernan2, Harrison Snow
 
 ### Files in Directory:
 
@@ -48,5 +46,3 @@ The scores nevertheless sync properly over the course of normal gameplay.
 
 - We were unable to satisfy the condition that when one client disconnects, the other client is terminated. For some reason the message sent
 in the interrupt handler is not reached by the other.
-
-- This was technically turned in late because the Makefile was mistakenly overwritten, sorry about that.
